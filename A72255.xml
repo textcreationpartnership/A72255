@@ -1,0 +1,529 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[The pastime of pleasure]</title>
+            <author>Hawes, Stephen, d. 1523?</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1509</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 4 KB of XML-encoded text transcribed from 3 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A72255</idno>
+            <idno type="STC">STC 12948</idno>
+            <idno type="STC">STC 24154</idno>
+            <idno type="STC">ESTC S121390</idno>
+            <idno type="EEBO-CITATION">99900385</idno>
+            <idno type="PROQUEST">99900385</idno>
+            <idno type="VID">152070</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A72255)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 152070)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 2007:6)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>[The pastime of pleasure]</title>
+                  <author>Hawes, Stephen, d. 1523?</author>
+               </titleStmt>
+               <extent>Pp [5]+ : ill.  </extent>
+               <publicationStmt>
+                  <publisher>W. de Worde,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1509]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Title and imprint from STC.</note>
+                  <note>Gathered in eights and fours--STC.</note>
+                  <note>Consists of 2 leaves and a fragment.</note>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-04</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2010-04</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="fragmentary_poem">
+            <pb facs="tcp:152070:1" rendition="simple:additions"/>
+            <div type="chapter">
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <lg>
+                  <l>
+                     <gap reason="illegible" extent="3 lines">
+                        <desc>〈3 lines〉</desc>
+                     </gap>
+                  </l>
+                  <l>
+                     <gap reason="illegible" extent="7 words">
+                        <desc>〈7 words〉</desc>
+                     </gap> theym repayre</l>
+                  <l>
+                     <gap reason="illegible" extent="2 words">
+                        <desc>〈◊◊〉</desc>
+                     </gap> theyr hertes do refleyre</l>
+                  <l>
+                     <gap reason="illegible" extent="2 words">
+                        <desc>〈◊◊〉</desc>
+                     </gap> quod I my good frende ſo true</l>
+                  <l>
+                     <gap reason="illegible" extent="2 words">
+                        <desc>〈◊◊〉</desc>
+                     </gap> with me ye myght alwaye enſue</l>
+               </lg>
+               <lg>
+                  <l>
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>hen a gayn I wente to the toure melodyous</l>
+                  <l>Of good dame M<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ſyke my leue for to take</l>
+                  <l>
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nd preuely with theſe wordes dolorous</l>
+                  <l>
+                     <gap reason="illegible" extent="4 lines">
+                        <desc>〈4 lines〉</desc>
+                     </gap>
+                  </l>
+               </lg>
+               <lg>
+                  <pb facs="tcp:152070:2" rendition="simple:additions"/>
+                  <l>
+                     <gap reason="illegible" extent="2 lines">
+                        <desc>〈2 lines〉</desc>
+                     </gap>
+                  </l>
+                  <l>That I may <gap reason="illegible" extent="4 words">
+                        <desc>〈◊◊◊◊〉</desc>
+                     </gap>
+                  </l>
+                  <l>With you my lady mo<gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="3 words">
+                        <desc>〈◊◊◊〉</desc>
+                     </gap>
+                  </l>
+                  <l>Wo worth the cauſe of <gap reason="illegible" extent="2 words">
+                        <desc>〈◊◊〉</desc>
+                     </gap>
+                  </l>
+                  <l>Whiche all my ſorowe is in <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Alas what pleaſure and ek<gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="2 words">
+                        <desc>〈◊◊〉</desc>
+                     </gap>
+                  </l>
+                  <l>Shall I now haue wha<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="4 words">
+                        <desc>〈◊◊◊◊〉</desc>
+                     </gap>
+                  </l>
+                  <l>
+                     <gap reason="illegible" extent="5 lines">
+                        <desc>〈5 lines〉</desc>
+                     </gap>
+                  </l>
+               </lg>
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <lg>
+                  <pb facs="tcp:152070:2"/>
+                  <l>
+                     <gap reason="illegible" extent="6 lines">
+                        <desc>〈6 lines〉</desc>
+                     </gap>
+                  </l>
+                  <l>
+                     <gap reason="illegible" extent="7 words">
+                        <desc>〈7 words〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ntente</l>
+               </lg>
+               <lg>
+                  <l>
+                     <gap reason="illegible" extent="2 words">
+                        <desc>〈◊◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="4 letters">
+                        <desc>••••</desc>
+                     </gap>uſe ye are contente</l>
+                  <l>
+                     <gap reason="illegible" extent="5 words">
+                        <desc>〈◊◊◊◊◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>he mater was</l>
+                  <l>
+                     <gap reason="illegible" extent="3 words">
+                        <desc>〈◊◊◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="4 letters">
+                        <desc>••••</desc>
+                     </gap>te clerely ſplendente</l>
+                  <l>
+                     <gap reason="illegible" extent="4 lines">
+                        <desc>〈4 lines〉</desc>
+                     </gap>
+                  </l>
+               </lg>
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <lg>
+                  <l>
+                     <gap reason="illegible" extent="2 lines">
+                        <desc>〈2 lines〉</desc>
+                     </gap>
+                  </l>
+                  <l>
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>garded all his w<gap reason="illegible" extent="5+ letters">
+                        <desc>•••••…</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="2 words">
+                        <desc>〈◊◊〉</desc>
+                     </gap>
+                  </l>
+                  <l>Without wyſdome truely exemple<gap reason="illegible" extent="4 letters">
+                        <desc>••••</desc>
+                     </gap>
+                  </l>
+                  <l>His propre deth hymſelf he nutryfyed</l>
+                  <l>Agaynſt his warre wyſdome dyde reply</l>
+                  <l>At his grete nede to reſyſt the contrary</l>
+               </lg>
+               <lg>
+                  <l>And where that wyſdome rule<gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> ha<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>dynes</l>
+                  <l>Hardynes thanis euer inuyncyble</l>
+                  <l>
+                     <gap reason="illegible" extent="5 words">
+                        <desc>〈◊◊◊◊◊〉</desc>
+                     </gap> or opre<gap reason="illegible" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>
+                  </l>
+                  <l>
+                     <gap reason="illegible" extent="4 lines">
+                        <desc>〈4 lines〉</desc>
+                     </gap>
+                  </l>
+               </lg>
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <pb facs="tcp:152070:2"/>
+               <lg>
+                  <l>
+                     <gap reason="illegible" extent="3 lines">
+                        <desc>〈3 lines〉</desc>
+                     </gap>
+                  </l>
+                  <l>The fyre of loue was ſo ſore kepte vnder</l>
+                  <l>Whan I from her ſholde departe aſonder</l>
+                  <l>With her fayre hede ſhe d<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>de lowe enclyne</l>
+                  <l>And in lyke wyſe ſo dyd I with myne</l>
+               </lg>
+            </div>
+            <div n="20" type="chapter">
+               <head>¶ Of the grete ſorow that <gap reason="illegible" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>unde Amour ma<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> after her departynge / and of the wordis of cou<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>c<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ll. Ca. <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </head>
+               <p>
+                  <figure/>
+               </p>
+               <lg>
+                  <l>HEr fre<g ref="char:cmbAbbrStroke">̄</g>des and ſhe on theyr waye they ſayl<gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </l>
+                  <l>Alonge the hauen god them ſaue and bry<gap reason="illegible" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>
+                  </l>
+                  <l>Vnto the londe I herde whan that they hayled</l>
+                  <l>With a grete pele of gunnes at theyr departynge</l>
+                  <l>The meruaylous toure of famous cunnynge</l>
+                  <l>No gunne was ſhotte but my herte dyd wepe</l>
+                  <l>For her departynge with <gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>full teeres <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>epe</l>
+               </lg>
+               <lg>
+                  <pb facs="tcp:152070:3" rendition="simple:additions"/>
+                  <l>
+                     <gap reason="illegible" extent="2 lines">
+                        <desc>〈2 lines〉</desc>
+                     </gap>
+                  </l>
+                  <l>
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> he ſayd <gap reason="illegible" extent="3 words">
+                        <desc>〈◊◊◊〉</desc>
+                     </gap> was wygh<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </l>
+                  <l>
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>ed all way in grete tranquylyte</l>
+                  <l>
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>hat hym hap<gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>d ſome aduerſyte</l>
+                  <l>
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>er that whan <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ayne was paſt</l>
+                  <l>The do<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ble Ioye dyde comforte theym at laſt</l>
+               </lg>
+               <lg>
+                  <l>Ye nede no<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>hynge for to make grete doloure</l>
+                  <l>Fortune to <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ou hath ben ryghte fauourable</l>
+                  <l>Makynge yo<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> to attayne the good fauoure</l>
+                  <l>Of your lady ſo ſwete and amyable</l>
+                  <l>No doute i<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> is ſhe is true and ſtable</l>
+                  <l>And deme<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ne you ſo that in no wyſe</l>
+                  <l>No man p<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rceyue or of your loue ſurmyſe</l>
+               </lg>
+               <lg>
+                  <l>Be hardy / fyers and alſo couragyous</l>
+                  <l>In all your batayles without feblenes</l>
+                  <l>For ye ſhall be ryght well vyctoryous</l>
+                  <l>Of all <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> enmyes ſo full of ſubtylnes</l>
+                  <l>Arme <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ou with wyſedome for more ſurenes</l>
+                  <l>Lete wyſedome werke for ſhe can ſtedfaſtly</l>
+                  <l>In tyme of nede reſyſte the contrary</l>
+               </lg>
+               <lg>
+                  <l>Was neuer man yet ſurely at the bate</l>
+                  <l>With ſapyence but that he dyde repente</l>
+                  <l>Who that is ruled by her hygh eſtate</l>
+                  <l>Of <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> after wytte ſhall neuer be ſhent</l>
+                  <l>She is to man ryght moche benyuolente</l>
+                  <l>With walles ſure ſhe doth hym fortefye</l>
+                  <l>Whan it is nede to reſyſt a contrary</l>
+               </lg>
+               <lg>
+                  <l>Was neuer place where as ſhe dyde guyde</l>
+                  <l>
+                     <gap reason="illegible" extent="6 lines">
+                        <desc>〈6 lines〉</desc>
+                     </gap>
+                  </l>
+               </lg>
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <lg>
+                  <pb facs="tcp:152070:3"/>
+                  <l>But he ſuche reaſon and fruytfull ſentence</l>
+                  <l>Dyde for hym ſay that I tolde hy<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ll</l>
+                  <l>Whan he it knewe / with all his dy<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ygence</l>
+                  <l>He dyde me comforte / than in ſpecyall</l>
+                  <l>Vnto my mynde he bad me to call</l>
+                  <l>Who ſpareth to ſpeke / he to ſpede dooth ſpare</l>
+                  <l>Go tell your lady the cauſe of your care</l>
+               </lg>
+               <lg>
+                  <l>By woſe councell grounded in wyſedome</l>
+                  <l>To the entente I ſholde ſpede the better</l>
+                  <l>And ryght ſhortly I dyde than to you come</l>
+                  <l>But drede all waye made my ſorowe greter</l>
+                  <l>After grete payne the Ioyes is the ſwetter</l>
+                  <l>For who that taſted paynefull bytternes</l>
+                  <l>The Ioye to hym is double ſwetnes</l>
+               </lg>
+               <lg>
+                  <l>And therwith all I dyde vnto her brynge</l>
+                  <l>Councell my frende and ſhe full ryght meke</l>
+                  <l>Dyde hym receyue than as he was comynge</l>
+                  <l>And of all thynges ſhe dyde hym beſeke</l>
+                  <l>After her partynge the ſame weke</l>
+                  <l>To haſt me forwarde to my Iourneyes ende</l>
+                  <l>Therto quod I / I do well condyſcende</l>
+               </lg>
+               <lg>
+                  <l>Fare well quod ſhe I may no lenger tary</l>
+                  <l>My frendes wyll come / of that were I lothe</l>
+                  <l>I ſhall retayne you in my memory</l>
+                  <l>And they it knewe they wolde with me be wr<gap reason="illegible" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>
+                  </l>
+                  <l>To loue you beſt I promyſe you my trouthe</l>
+                  <l>And than myn eyen grete ſorowe ſhewe<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </l>
+                  <l>With teres ſalte my chekes w<gap reason="illegible" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>
+                  </l>
+               </lg>
+               <lg>
+                  <l>
+                     <gap reason="illegible: missing" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </l>
+               </lg>
+            </div>
+            <gap reason="missing" extent="1+ pages">
+               <desc>〈1… pages missing〉</desc>
+            </gap>
+         </div>
+      </body>
+   </text>
+</TEI>
